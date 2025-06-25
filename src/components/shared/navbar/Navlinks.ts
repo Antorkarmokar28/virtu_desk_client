@@ -11,7 +11,7 @@ export const navLinks = [
   },
   {
     key: 3,
-    title: "About",
+    title: "About Us",
     href: "/about",
   },
   {

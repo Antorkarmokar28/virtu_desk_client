@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
 import Logo from "../Logo/Logo";
 import { useEffect, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";

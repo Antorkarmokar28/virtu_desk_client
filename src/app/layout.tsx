@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/shared/navbar/Navbar";
 import PersistProvider from "@/provider/Persist-Provider/PersistProvider";
 import { Toaster } from "sonner";
 import { ReduxProvider } from "@/provider/Redux-Provider/ReduxProvider";
@@ -31,7 +30,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar />
         <div className="min-h-screen">
           <ReduxProvider>
             <Toaster
